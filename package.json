@@ -1,0 +1,27 @@
+{
+  "name": "jap-deconjugator",
+  "version": "1.0.0",
+  "description": "Web deconjugator of japanese verbs using npm package \"jp-verbs v1.0.1\"",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify scripts/script.js -o scripts/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harold-guido/jap-deconjugator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harold-guido/jap-deconjugator/issues"
+  },
+  "homepage": "https://github.com/harold-guido/jap-deconjugator#readme",
+  "dependencies": {
+    "jp-verbs": "^1.0.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
